@@ -40,7 +40,6 @@ Key features include:
   - Git
   - GitHub
 
-## Installation
 
 ### Prerequisites
 Ensure you have the following installed:
