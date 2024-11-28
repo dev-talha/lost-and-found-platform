@@ -23,15 +23,15 @@
                     $mail->isSMTP();
                     $mail->Host       = 'smtp.gmail.com'; // Gmail SMTP server
                     $mail->SMTPAuth   = true;
-                    $mail->Username   = 'bpitalha@gmail.com'; // Your Gmail address
-                    $mail->Password   = 'yqwkfof'; // Use the App Password generated from Google
+                    $mail->Username   = 'mail address'; // Your Gmail address
+                    $mail->Password   = 'password'; // Use the App Password generated from Google
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Encryption type
                     $mail->Port       = 587; // Port for TLS/STARTTLS
 
                     // Sender and recipient
-                    $mail->setFrom('bpitalha@gmail.com', 'Your Name');
-                    $mail->addAddress('abutalha2616@gmail.com', 'Recipient Name');
-                    $mail->addReplyTo('bpitalha@gmail.com', 'Your Name');
+                    $mail->setFrom('mail addresss', 'Your Name');
+                    $mail->addAddress('recipient email address, 'Recipient Name');
+                    $mail->addReplyTo('mail address', 'Your Name');
 
                     // Data from a form (e.g., $_POST)
                     $name = $_POST['name'] ?? 'Anonymous';
