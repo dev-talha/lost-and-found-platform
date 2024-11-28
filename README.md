@@ -1,6 +1,9 @@
 # Lost and Found Platform
 *An Innovative Web-Based Solution for Managing Lost and Found Items*
 
+![Home Page](assets/images/apps/home.png)
+
+
 ## Description
 The **Lost and Found Platform** is a web-based application designed to help users report lost items and claim found items. The platform provides a seamless solution to connect individuals who have lost items with those who have found them. It allows users to report, search for, and retrieve lost belongings while maintaining privacy and security.
 
