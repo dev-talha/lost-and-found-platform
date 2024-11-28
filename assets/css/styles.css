@@ -81,3 +81,8 @@ html, body {
   .card-head p{
     font-size: 12px;
   }
+@media (min-width: 200px) and (max-width: 990px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
