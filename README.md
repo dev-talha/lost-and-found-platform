@@ -56,4 +56,3 @@ Ensure you have the following installed:
    Clone the repository to your local machine using the following command:
    ```bash
    git clone https://github.com/your-username/lost-and-found-platform.git
-
